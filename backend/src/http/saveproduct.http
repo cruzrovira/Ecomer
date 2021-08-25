@@ -1,0 +1,10 @@
+POST http://localhost:3000/product HTTP/1.1
+Content-Type:  application/json
+
+{
+  "nombre": "pc",
+  "price": 1000,
+  "desciption": "pc personal ",
+  "quantity": 12,
+  "images": "pc"
+}
